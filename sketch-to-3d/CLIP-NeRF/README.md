@@ -25,12 +25,16 @@ python run_nerf_clip.py --config configs/lego.txt --use_clip --w_clip 1.5 --use_
 
 ## Sample Output
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/07e72dab-0764-4220-abe8-f5e54fd7686c
+Sketch -> "A Red Lego Excavator"
 
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/77511dff-a97e-45c3-bafe-cb95cf581d52
+Sketch -> Colour Filled -> "A Blue Excavator"
 
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/fe72cf09-837d-4d6f-90ae-2e0fbccc4211
+Sketch -> "A Green Excavator"
 
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/7ab8a359-0e10-4e08-9458-da84912ce58b
+Sketch -> Colour Filled -> "A Red Lego Excavator" (Original CLIP-NeRF)
 
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f8f0c323-d0a4-4f98-acf8-466157aa5f71
-
+Sketch -> Colour Filled -> "A Red Lego Excavator" (CLIP-NeRF with Edge Loss)
