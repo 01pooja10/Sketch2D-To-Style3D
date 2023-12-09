@@ -17,6 +17,8 @@ To train please run
 python run_nerf_clip.py --config configs/lego.txt --use_clip --w_clip 1.5 --use_alpha --use_feature --use_view --sample_scale 128 --description "A Red Lego Excavator" 
 ```
 
+Ensure that you put the pretrained nerf model from nerf-pytorch repository into logs/blender_paper_lego
+
 
 |  Parameter  | Discription  |
 |  ----  | ----  |
