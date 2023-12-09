@@ -1,14 +1,18 @@
 # NeRF-pytorch
 Code adapted from https://github.com/yenchenlin/nerf-pytorch
 
+The files modified are in run_nerf.py, run_nerf_helpers.py and configs/lego.txt files. 
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf.py#L475
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf.py#L998
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf_helpers.py#L15
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf_helpers.py#L30
+
 To train please run:
 ```
 python run_nerf.py --config configs/lego.txt
 ``` 
-# Sample Output
+## Sample Output
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f7b9f716-f3c5-4cbf-adaa-031f04d6c18c
-
-
 
 ## Citation
 Kudos to the authors for their amazing results:
