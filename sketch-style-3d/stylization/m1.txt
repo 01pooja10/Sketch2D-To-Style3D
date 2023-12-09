@@ -1,3 +1,0 @@
-torchfile==0.1.0
-torchvision==0.6.0a0+82fd1c8
-tqdm==4.62.3
