@@ -12,6 +12,7 @@ To train please run
 python run_nerf_clip.py --config configs/lego.txt --use_clip --w_clip 1.5 --use_alpha --use_feature --use_view --sample_scale 128 --description "A Red Lego Excavator" 
 ```
 
+
 |  Parameter  | Discription  |
 |  ----  | ----  |
 | --description  | Text prompt |
@@ -21,3 +22,15 @@ python run_nerf_clip.py --config configs/lego.txt --use_clip --w_clip 1.5 --use_
 | --use_feature | Whether finetune feature layers |
 | --use_view | Whether finetune view layers |
 | --sample_scale | Patch size (the larger, the better, you can set a max value according to your GPU |
+
+## Sample Output
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/07e72dab-0764-4220-abe8-f5e54fd7686c
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/77511dff-a97e-45c3-bafe-cb95cf581d52
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/fe72cf09-837d-4d6f-90ae-2e0fbccc4211
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/7ab8a359-0e10-4e08-9458-da84912ce58b
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f8f0c323-d0a4-4f98-acf8-466157aa5f71
+
