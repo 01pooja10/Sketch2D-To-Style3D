@@ -5,6 +5,11 @@ Editing color of a single nerf model.
 
 This project is built upon a [PyTorch implementation](https://github.com/yenchenlin/nerf-pytorch).
 
+Files modified:
+load_blender.py, run_nerf_clip.py, configs/lego.txt
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/0bdd7dbd60ad98747f024ba344cc8ce8a5ed7341/sketch-to-3d/CLIP-NeRF/load_blender.py#L106
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/0bdd7dbd60ad98747f024ba344cc8ce8a5ed7341/sketch-to-3d/CLIP-NeRF/run_nerf_clip.py#L1063
+
 ## Run
 
 To train please run
