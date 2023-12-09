@@ -12,10 +12,11 @@ mse2psnr = lambda x: -10.0 * torch.log(x) / torch.log(torch.Tensor([10.0]))
 to8b = lambda x: (255 * np.clip(x, 0, 1)).astype(np.uint8)
 
 
+# W-MSE loss
 def img2mse(x, y):
     threshold = 0.3
-    num_pos = (torch.sum(y > threshold)).float()
-    num_neg = (torch.sum(y <= threshold)).float()
+    num_pos = (torch.sum(y > threshold)).float()  # edge pixels
+    num_neg = (torch.sum(y <= threshold)).float()  # non edge pixels
 
     mask = torch.zeros_like(y)
 
@@ -27,9 +28,10 @@ def img2mse(x, y):
     return loss
 
 
+# sparsity loss
 def sparse(y, weights):
     threshold = 0.3
-    y = y.mean(dim=-1, keepdim=True)
+    y = y.mean(dim=-1, keepdim=True)  # average over channel dimension
 
     mask = torch.zeros_like(y)
 
@@ -37,7 +39,7 @@ def sparse(y, weights):
 
     mask = mask.repeat(1, weights.shape[1])
 
-    loss = torch.log(1 + torch.square(weights) / 0.5)
+    loss = torch.log(1 + torch.square(weights) / 0.5)  # apply loss
     loss = (loss * mask).mean()
     return loss
 
