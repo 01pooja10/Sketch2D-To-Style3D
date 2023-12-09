@@ -12,9 +12,9 @@ To train please run:
 python run_nerf.py --config configs/lego.txt
 ``` 
 ## Sample Output
-https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f7b9f716-f3c5-4cbf-adaa-031f04d6c18c
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/ed06d704-a7e7-4e91-9d4e-6655dde619e5
 
-https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/a3d4cfc0-2e6c-4e02-92d1-ccdbeb835a3d
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/67062bfb-9c45-499c-8298-3a7e2b774e6e
 
 ## Citation
 Kudos to the authors for their amazing results:
