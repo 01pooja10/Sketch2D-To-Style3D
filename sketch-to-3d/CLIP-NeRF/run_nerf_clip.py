@@ -1060,6 +1060,7 @@ def train():
             )[0]
             target_s = target_s.permute(1, 2, 0).view(-1, 3)
 
+            # sample mask with same indices as target 
             mask_s = torch.nn.functional.grid_sample(
                 mask.permute(2, 0, 1).unsqueeze(0),
                 select_inds.unsqueeze(0),
@@ -1092,10 +1093,9 @@ def train():
 
         optimizer.zero_grad()
 
-        mask_edge = torch.bitwise_or(target_img_gray > 0.5, mask_img.bool())
-
-        # rgb_mask = torch.where(mask_edge, rgb_img_gray, torch.tensor(0))
-        # target_mask = torch.where(mask_edge, target_img_gray, torch.tensor(0))
+        mask_edge = torch.bitwise_or(
+            target_img_gray > 0.5, mask_img.bool()
+        )  # indexes for background and edges
 
         img_loss = img2mse(rgb_img_gray[mask_edge], target_img_gray[mask_edge])
         loss = img_loss
