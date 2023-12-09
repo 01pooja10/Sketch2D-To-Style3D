@@ -14,6 +14,8 @@ python run_nerf.py --config configs/lego.txt
 ## Sample Output
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f7b9f716-f3c5-4cbf-adaa-031f04d6c18c
 
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/a3d4cfc0-2e6c-4e02-92d1-ccdbeb835a3d
+
 ## Citation
 Kudos to the authors for their amazing results:
 ```
