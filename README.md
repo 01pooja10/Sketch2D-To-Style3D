@@ -42,15 +42,19 @@ https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/46479018-1bea-4
 #### InfoNeRF: 
 
 4-shot with detailed sketch: 
+
 ![style_masked_fewshot_4](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/110578288/a8249d09-1bf4-4308-bcdc-74aaf0b77e88)
 
 10-shot with detailed sketch: 
+
 ![style_masked_fewshot_10](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/110578288/26fad460-d0d0-44ee-b4a5-6bea807bb324)
 
 4-shot with sparse sketch: 
+
 ![sparse_style_masked_fewshot_4](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/110578288/355b6d00-64a1-470f-b657-3fcb9cdffc1a)
 
 10-shot with sparse sketch: 
+
 ![sparse_style_masked_fewshot_10](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/110578288/c6a23c6d-0c7f-440f-98e2-07871525f627)
 
 
