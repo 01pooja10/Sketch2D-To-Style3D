@@ -1,7 +1,7 @@
 # NeRF-pytorch
-Code adapted from https://github.com/yenchenlin/nerf-pytorch
+This is the folder containing the code files and other dependencies to train a NeRF in PyTorch from scratch. Code has been adapted from https://github.com/yenchenlin/nerf-pytorch
 
-The files modified are in run_nerf.py, run_nerf_helpers.py and configs/lego.txt files. 
+Some of the modified files are given below for reference:
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/load_blender.py#L37
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/load_blender.py#L58
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/run_nerf.py#L525
@@ -13,17 +13,20 @@ python run_nerf.py --config configs/lego.txt
 ``` 
 ## Sample results
 
-After stylizing using the first style image, the output rendered from NeRF is attached below.
+After stylizing using the first style image, the output rendered from NeRF is attached below:
 
-https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/7e27cb3f-14ec-4fdb-95bb-2a231926209a
 
-After stylizing using the second style image, the output rendered from NeRF is attached below.
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/a632b0be-f2ad-49b9-8d20-d59786180ea7
 
-https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/d84b10a1-efab-4027-b7ae-412e36f18817
+
+After stylizing using the second style image, the output rendered from NeRF is attached below:
+
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/91aaca0b-e959-4313-9efc-14d989b1b14e
 
 
 ## Citation
-Kudos to the authors for their amazing results:
+Cite the authors of the original NeRF paper:
 ```
 @misc{mildenhall2020nerf,
     title={NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis},
@@ -35,7 +38,7 @@ Kudos to the authors for their amazing results:
 }
 ```
 
-However, if you find this implementation or pre-trained models helpful, please consider to cite:
+If you find this implementation helpful, please cite:
 ```
 @misc{lin2020nerfpytorch,
   title={NeRF-pytorch},
