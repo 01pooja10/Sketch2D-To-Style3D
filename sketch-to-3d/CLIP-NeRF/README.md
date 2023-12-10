@@ -50,3 +50,16 @@ Sketch -> Colour Filled -> "A Red Lego Excavator" (Original CLIP-NeRF)
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/f8f0c323-d0a4-4f98-acf8-466157aa5f71
 
 Sketch -> Colour Filled -> "A Red Lego Excavator" (CLIP-NeRF with Edge Loss)
+
+## Citation
+If you use this work, please cite the original paper and its authors:
+```
+@misc{wang2022clipnerf,
+      title={CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields}, 
+      author={Can Wang and Menglei Chai and Mingming He and Dongdong Chen and Jing Liao},
+      year={2022},
+      eprint={2112.05139},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
