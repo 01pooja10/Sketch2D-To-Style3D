@@ -226,11 +226,10 @@ def check_paths(args):
 
 def evaluate(args):
     paths = os.listdir(args.content_folder)
+	
     for i in tqdm(range(len(paths))):
         
         fname = paths[i]
-        #.split('_')
-        #fname = name[1] + '_' + name[2]
         
         content_image = args.content_folder + paths[i]
         content_image = utils.tensor_load_rgbimage(content_image, size=args.content_size, keep_asp=True)
@@ -258,7 +257,6 @@ def evaluate(args):
         style_model.setTarget(style_v)
 
         output = style_model(content_image)
-        #output = utils.color_match(output, style_v)
         utils.tensor_save_bgrimage(output.data[0], args.output_folder + fname, args.cuda)
 
 
