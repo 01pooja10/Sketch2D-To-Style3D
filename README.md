@@ -5,7 +5,8 @@ We explore 2 unique approaches to generate and stylize a 3D object from a 2D set
 We also test a few-shot model called Info-NeRF with 4 and 10 images to test the ability of NeRF to reproduce reliable results with fewer volumes of input data.
 ![CI_imgs (2)](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/602c0a0d-9b58-42a7-a714-9583d5f6af0b)
 
-2. The second approach deals with stylization using text prompts while outputs are rendered by CLIP-NeRF. Here, we use transfer learning to substitute the NeRF in CLIP-NeRF with our model trained on the pencil sketches. This specifies a single color in the prompt rather than conditioning on a style image/painting.
+2. The second approach deals with stylization using text prompts while outputs are rendered by CLIP-NeRF. Here, we use transfer learning to substitute the NeRF in CLIP-NeRF with our model trained on the pencil sketches. This specifies a single color/textual information in the prompt rather than conditioning on a style image/painting.
+<img width="840" alt="Screenshot 2023-12-09 at 7 39 21 PM" src="https://github.com/01pooja10/Sketch2D-To-Style3D/assets/30786246/61b3af2d-0fdb-4b35-b37e-39df68983665">
 
 # Results
 
