@@ -81,7 +81,7 @@ class Options():
                                 help="path to style-image")
         eval_arg.add_argument("--content-size", type=int, default=512,
                                 help="factor for scaling down the content image")
-        eval_arg.add_argument("--content-folder", type=str, default='/w/246/poojaravi/PyTorch-Multi-Style-Transfer/lego_style/lego_sketches/train/',
+        eval_arg.add_argument("--content-folder", type=str, default='PyTorch-Multi-Style-Transfer/path/to/train/',
                                 help="path to content images")
         eval_arg.add_argument("--style-size", type=int, default=512,
                                 help="size of style-image, default is the original size of style image")
@@ -89,7 +89,7 @@ class Options():
                                 help="path to style-folder")
         #eval_arg.add_argument("--output-image", type=str, default="output.jpg",
                                 #help="path for saving the output image")
-        eval_arg.add_argument("--output-folder", type=str, default="/w/246/poojaravi/PyTorch-Multi-Style-Transfer/lego_style/lego_sketches/style_train/",
+        eval_arg.add_argument("--output-folder", type=str, default="PyTorch-Multi-Style-Transfer/path/to/output/folder",
                                 help="path for saving the output image")
         eval_arg.add_argument("--model", type=str, required=True,
                                 help="saved model to be used for stylizing the image")
