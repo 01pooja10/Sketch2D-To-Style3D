@@ -7,6 +7,8 @@ https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaa
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf_helpers.py#L15
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/a93c3bbb4e9f17ac66ae536aaad461e2d8a8a0d8/sketch-to-3d/nerf-pytorch/run_nerf_helpers.py#L30
 
+Please download the dataset from the google drive link: https://drive.google.com/drive/folders/1mT1Hh4cCeEca2rt1IW_Ug241jBbsKGEd?usp=share_link and place it in this directory. Modify configs/lego.txt to point towards the directory.
+
 To train please run:
 ```
 python run_nerf.py --config configs/lego.txt
