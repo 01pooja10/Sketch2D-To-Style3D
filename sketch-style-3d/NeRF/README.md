@@ -14,9 +14,11 @@ python run_nerf.py --config configs/lego.txt
 ## Sample results
 
 After stylizing using the first style image, the output rendered from NeRF is attached below.
+
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/7e27cb3f-14ec-4fdb-95bb-2a231926209a
 
 After stylizing using the second style image, the output rendered from NeRF is attached below.
+
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/d84b10a1-efab-4027-b7ae-412e36f18817
 
 
