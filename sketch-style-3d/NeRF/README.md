@@ -1,5 +1,5 @@
 # NeRF-pytorch
-This is the folder containing the code files and other dependencies to train a NeRF in PyTorch from scratch. Code has been adapted from https://github.com/yenchenlin/nerf-pytorch
+This is the folder containing the code files and other dependencies to train a NeRF in PyTorch from scratch. The code files have been adapted from https://github.com/yenchenlin/nerf-pytorch
 
 Some of the modified files are given below for reference:
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/load_blender.py#L37
@@ -7,6 +7,18 @@ https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/run_nerf.py#L525
 https://github.com/01pooja10/Sketch2D-To-Style3D/blob/c7339f5f688b74f931020936e1dc6938282cdb68/sketch-style-3d/NeRF/run_nerf.py#L535
 
+## Data
+To download a sample dataset such as the synthetic Lego NeRF data, run the following:
+'''
+bash download_example_data.sh
+'''
+
+To use a custom dataset (stylized images/sketches) firstly create a new folder inside the NeRF directory:
+-> ./data/nerf_synthetic/
+- Add train, val, and test folders with the respective images. Ensure that the order of images and nomenclature is the same as the original dataset.
+- Add the necessary JSON files for train, val, and test.
+
+## Training
 To train please run:
 ```
 python run_nerf.py --config configs/lego.txt
