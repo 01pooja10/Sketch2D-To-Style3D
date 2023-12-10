@@ -16,7 +16,8 @@ The drive link to download different datasets and pretrained models is available
 
 ## Results
 
-## Approach 1
+### Approach 1
+
 Style Image 1:
 
 ![style1](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/9fad3aeb-1f19-49a1-8637-3d98d1162911)
