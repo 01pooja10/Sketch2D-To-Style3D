@@ -39,3 +39,20 @@ To play with other scenes presented in the paper, download the data [here](https
 │   │   └── scan2   # downloaded DTU dataset
 |   |   └── ...
 ```
+
+## Citation
+
+If you find our work useful in your research, please cite:
+
+```
+@inproceedings{kim2022infonerf,
+            author = {Mijeong Kim and Seonguk Seo and Bohyung Han},
+            booktitle = {CVPR},
+            title = {InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering},
+            year = {2022}
+        }
+```
+
+## Acknowlegements
+
+This code heavily borrows from [nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch) and [DS-NeRF](https://github.com/dunbar12138/DSNeRF).
