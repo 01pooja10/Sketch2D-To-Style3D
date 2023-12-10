@@ -12,11 +12,14 @@ We also test a few-shot model called Info-NeRF with 4 and 10 images to test the 
 
 ## Approach 1
 Style Image 1:
+
 ![style1](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/9fad3aeb-1f19-49a1-8637-3d98d1162911)
+
 Training set of images consisting of sketches conditioned on Style 1 (painting):
 https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/b7b72e53-a12f-4af3-a136-d4a4ca8ccd7e
 
 Style Image 2:
+
 ![style2](https://github.com/01pooja10/Sketch2D-To-Style3D/assets/66198904/ace1e20a-a768-4319-9e44-d798c34d1c7a)
 
 Training set of images consisting of sketches conditioned on Style 2 (painting):
