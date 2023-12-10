@@ -4,11 +4,12 @@ This folder contains all the code files and dependencies required for stylizing 
 The code for stylization is made available here. To use the MSG-Net pretrained model, follow the instructions given below.
 
 The following modifications have been made: 
-https://github.com/01pooja10/Sketch2D-To-Style3D/blob/4424b68abf10061c5b32cde37bbce7ba0b42de5f/sketch-style-3d/stylization/stylize/main.py#L227
-https://github.com/01pooja10/Sketch2D-To-Style3D/blob/4424b68abf10061c5b32cde37bbce7ba0b42de5f/sketch-style-3d/stylization/stylize/main.py#L235
-https://github.com/01pooja10/Sketch2D-To-Style3D/blob/4424b68abf10061c5b32cde37bbce7ba0b42de5f/sketch-style-3d/stylization/stylize/main.py#L262
-https://github.com/01pooja10/Sketch2D-To-Style3D/blob/4424b68abf10061c5b32cde37bbce7ba0b42de5f/sketch-style-3d/stylization/stylize/option.py#L84
-https://github.com/01pooja10/Sketch2D-To-Style3D/blob/4424b68abf10061c5b32cde37bbce7ba0b42de5f/sketch-style-3d/stylization/stylize/option.py#L92
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/20aef0221049c4669aa921875d07c7c0f75c96f6/sketch-style-3d/stylization/experiments/main.py#L227
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/20aef0221049c4669aa921875d07c7c0f75c96f6/sketch-style-3d/stylization/experiments/main.py#L235
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/20aef0221049c4669aa921875d07c7c0f75c96f6/sketch-style-3d/stylization/experiments/main.py#L260
+
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/0e888deb02f596c05a65d70b0aec7da45787ecb3/sketch-style-3d/stylization/experiments/option.py#L84
+https://github.com/01pooja10/Sketch2D-To-Style3D/blob/0e888deb02f596c05a65d70b0aec7da45787ecb3/sketch-style-3d/stylization/experiments/option.py#L84
 
 ## Run files
 To use this folder for stylizing your own set of sketches (or other images), run the following line:
