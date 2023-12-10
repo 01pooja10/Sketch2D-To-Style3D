@@ -22,3 +22,20 @@ To train a NeRF (baseline) on the example `lego` scene:
 ```
 python run_nerf.py --config configs/nerf/synthetic/lego.txt
 ```
+
+### More Datasets
+To play with other scenes presented in the paper, download the data [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1). Place the downloaded dataset according to the following directory structure:
+```
+├── configs  
+│   ├── ...    
+│                                                                                      
+├── data 
+|   ├── nerf_synthetic
+|   |   └── lego
+|   |   └── ship    # downloaded synthetic dataset
+|   |   └── ...
+│   ├── DTU
+│   │   └── scan1   # downloaded DTU dataset
+│   │   └── scan2   # downloaded DTU dataset
+|   |   └── ...
+```
